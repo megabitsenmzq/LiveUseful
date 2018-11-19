@@ -1,0 +1,138 @@
+/* Accessibility Warning Message */
+"Accessibility Warning Message" = "帶有多個二維碼的 Live Photo 可能很難在看不到螢幕的狀態下使用。";
+
+/* Accessibility Warning */
+"Accessibility Warning" = "無障礙提示";
+
+/* AD 4 Title */
+"AD 4 Title" = "添加圖片。發揮你的想象力，你的鎖定畫面潛力無限。";
+
+/* IAP 1 */
+"IAP 1" = "添加多個二維碼或列表到 Live Photo\n\n列表內容可以保存";
+
+/* Add New Item */
+"Add New Item" = "添加項目";
+
+/* Back */
+"Back" = "返回";
+
+/* Background blur */
+"Background blur" = "背景虛化";
+
+/* Big */
+"Big" = "大";
+
+/* Blue color tag */
+"Blue color tag" = "藍色標籤";
+
+/* Can't Purchase */
+"Can't Purchase" = "無法購買";
+
+/* Can't Restore */
+"Can't Restore" = "無法恢復購買";
+
+/* Cancel */
+"Cancel" = "取消";
+
+/* Card Style */
+"Card Style" = "卡片樣式";
+
+/* Center */
+"Center" = "居中對齊";
+
+/* AD 2 Title */
+"AD 2 Title" = "設置卡片樣式、文字大小及對齊。";
+
+/* Dark */
+"Dark" = "暗色";
+
+/* Edit */
+"Edit" = "編輯";
+
+/* Extra light */
+"Extra light" = "亮色";
+
+/* Gray color tag */
+"Gray color tag" = "灰色標籤";
+
+/* In app purchases are disabled in your device! */
+"In app purchases are disabled in your device!" = "您的設備禁用了 App 內購買！";
+
+/* Input some text here. */
+"Input some text here." = "在這裡輸入一些文字。";
+
+/* Input text or URL here. */
+"Input text or URL here." = "在這裡輸入文字或連結。";
+
+/* Input title here (Optional). */
+"Input title here (Optional)." = "在這裡輸入標題（可選）。";
+
+/* Justified */
+"Justified" = "兩端對齊";
+
+/* Left */
+"Left" = "左對齊";
+
+/* Light */
+"Light" = "較亮";
+
+/* OK */
+"OK" = "確定";
+
+/* AD 1 Subtitle */
+"AD 1 Subtitle" = "只會在你用力按螢幕時顯示出來。";
+
+/* Open photos */
+"Open photos" = "打開圖片";
+
+/* Pro feature */
+"Pro feature" = "Pro 版功能";
+
+/* Purple color tag */
+"Purple color tag" = "紫色標籤";
+
+/* QR Code Not Found */
+"QR Code Not Found" = "沒有找到二維碼";
+
+/* QR size */
+"QR size" = "二維碼尺寸";
+
+/* Red color tag */
+"Red color tag" = "紅色標籤";
+
+/* Remove */
+"Remove" = "移除";
+
+/* Restore Purchase */
+"Restore Purchase" = "恢復購買";
+
+/* Right */
+"Right" = "右對齊";
+
+/* Scale to fill */
+"Scale to fill" = "放大填充";
+
+/* Scale to fit */
+"Scale to fit" = "適合大小";
+
+/* AD 3 Title */
+"AD 3 Title" = "添加二維碼時從相機或圖片掃描。";
+
+/* Set Maximum Font Size */
+"Set Maximum Font Size" = "選擇最大字號";
+
+/* Small */
+"Small" = "小";
+
+/* Text alignment */
+"Text alignment" = "對齊方式";
+
+/* AD 1 Title */
+"AD 1 Title" = "歡迎使用 LiveUseful！\n在鎖屏壁紙中隱藏文字、列表、圖片和二維碼。";
+
+/* Yellow color tag */
+"Yellow color tag" = "黃色標籤";
+
+"Move QR Tip" = "輕點兩下並按住以上下移動二維碼。";
+
+"Hide keyboard" = "隱藏鍵盤";

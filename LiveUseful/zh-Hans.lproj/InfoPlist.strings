@@ -1,0 +1,9 @@
+/* Bundle name */
+"CFBundleName" = "神奇锁屏";
+
+/* Privacy - Camera Usage Description */
+"NSCameraUsageDescription" = "扫描导入二维码。";
+
+/* Privacy - Photo Library Usage Description */
+"NSPhotoLibraryUsageDescription" = "保存 Live Photo 到照片库。";
+

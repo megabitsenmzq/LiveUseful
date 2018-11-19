@@ -1,0 +1,138 @@
+/* Accessibility Warning Message */
+"Accessibility Warning Message" = "带有多个二维码的 Live Photo 可能很难在看不到屏幕的状态下使用。";
+
+/* Accessibility Warning */
+"Accessibility Warning" = "无障碍提示";
+
+/* AD 4 Title */
+"AD 4 Title" = "添加图片。发挥你的想象力，你的锁屏壁纸潜力无限。";
+
+/* IAP 1 */
+"IAP 1" = "添加多个二维码或列表到 Live Photo\n\n列表内容可以保存";
+
+/* Add New Item */
+"Add New Item" = "添加项目";
+
+/* Back */
+"Back" = "返回";
+
+/* Background blur */
+"Background blur" = "背景虚化";
+
+/* Big */
+"Big" = "大";
+
+/* Blue color tag */
+"Blue color tag" = "蓝色标签";
+
+/* Can't Purchase */
+"Can't Purchase" = "无法购买";
+
+/* Can't Restore */
+"Can't Restore" = "无法恢复购买";
+
+/* Cancel */
+"Cancel" = "取消";
+
+/* Card Style */
+"Card Style" = "卡片样式";
+
+/* Center */
+"Center" = "居中对齐";
+
+/* AD 2 Title */
+"AD 2 Title" = "设置卡片样式、文字大小及对齐。";
+
+/* Dark */
+"Dark" = "暗色";
+
+/* Edit */
+"Edit" = "编辑";
+
+/* Extra light */
+"Extra light" = "亮色";
+
+/* Gray color tag */
+"Gray color tag" = "灰色标签";
+
+/* In app purchases are disabled in your device! */
+"In app purchases are disabled in your device!" = "您的设备禁用了 App 内购买！";
+
+/* Input some text here. */
+"Input some text here." = "在这里输入一些文字。";
+
+/* Input text or URL here. */
+"Input text or URL here." = "在这里输入文字或链接。";
+
+/* Input title here (Optional). */
+"Input title here (Optional)." = "在这里输入标题（可选）。";
+
+/* Justified */
+"Justified" = "两端对齐";
+
+/* Left */
+"Left" = "左对齐";
+
+/* Light */
+"Light" = "较亮";
+
+/* OK */
+"OK" = "确定";
+
+/* AD 1 Subtitle */
+"AD 1 Subtitle" = "只会在你用力按屏幕时显示出来。";
+
+/* Open photos */
+"Open photos" = "打开图片";
+
+/* Pro feature */
+"Pro feature" = "Pro 版功能";
+
+/* Purple color tag */
+"Purple color tag" = "紫色标签";
+
+/* QR Code Not Found */
+"QR Code Not Found" = "没有找到二维码";
+
+/* QR size */
+"QR size" = "二维码尺寸";
+
+/* Red color tag */
+"Red color tag" = "红色标签";
+
+/* Remove */
+"Remove" = "移除";
+
+/* Restore Purchase */
+"Restore Purchase" = "恢复购买";
+
+/* Right */
+"Right" = "右对齐";
+
+/* Scale to fill */
+"Scale to fill" = "放大填充";
+
+/* Scale to fit */
+"Scale to fit" = "适合大小";
+
+/* AD 3 Title */
+"AD 3 Title" = "添加二维码时从相机或图片扫描。";
+
+/* Set Maximum Font Size */
+"Set Maximum Font Size" = "选择最大字号";
+
+/* Small */
+"Small" = "小";
+
+/* Text alignment */
+"Text alignment" = "对齐方式";
+
+/* AD 1 Title */
+"AD 1 Title" = "欢迎使用 神奇锁屏！\n在锁屏壁纸中隐藏文字、列表、图片和二维码。";
+
+/* Yellow color tag */
+"Yellow color tag" = "黄色标签";
+
+"Move QR Tip" = "轻点两下并按住以上下移动二维码。";
+
+"Hide keyboard" = "隐藏键盘";

@@ -51,10 +51,10 @@ For the video, you need to pass a metadata adapter to the asset writer.
 
 ```Swift
 let spec : NSDictionary = [
-            kCMMetadataFormatDescriptionMetadataSpecificationKey_Identifier as NSString:
-            "\(kKeySpaceQuickTimeMetadata)/\(kKeyStillImageTime)",
-            kCMMetadataFormatDescriptionMetadataSpecificationKey_DataType as NSString:
-            "com.apple.metadata.datatype.int8"   
+           kCMMetadataFormatDescriptionMetadataSpecificationKey_Identifier as NSString:
+           "\(kKeySpaceQuickTimeMetadata)/\(kKeyStillImageTime)",
+           kCMMetadataFormatDescriptionMetadataSpecificationKey_DataType as NSString:
+           "com.apple.metadata.datatype.int8"   
 ```
 
 This app is using AVFoundation to generate video from images. To understand what's happening in this step, you may need to learn AVFoundation.
@@ -96,6 +96,7 @@ LiveUseful was designed using Sketch. You can download the .sketch file in the "
 To support me, you can buy this app on App Store, or donate with WeChat or AliPay:
 
 [![](https://qrtag.net/api/qr_transparent_4.svg?url=https://wx.tenpay.com/f2f?t=AQAAAJmau5%2FexSWV6HOdMOTrYQ0%3D)](https://wx.tenpay.com/f2f?t=AQAAAJmau5%2FexSWV6HOdMOTrYQ0%3D)
+
 [![](https://qrtag.net/api/qr_transparent_4.svg?url=HTTPS://QR.ALIPAY.COM/FKX03104PXEOHVFMZKFFAA)](HTTPS://QR.ALIPAY.COM/FKX03104PXEOHVFMZKFFAA)
 
 ## Licence - MIT

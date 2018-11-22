@@ -9,7 +9,7 @@ LiveUseful is the first universal tool that inserts various hidden information i
 
 See more details on App Store: [LiveUseful - Make your lock screen useful!](https://itunes.apple.com/us/app/id1329941178) 
 
-## About the codes
+## About the code
 
 The core of LiveUseful is Live Photo。The App takes a screenshot of the view, then make a video from this image contain only one frame. Convert this video to Live Photo with a cover image as the background. When you press the screen with 3D Touch, it will start to play the video, display the image with hidden content. Because Live Photo has a built-in fade animation, the process will be very smooth.
 

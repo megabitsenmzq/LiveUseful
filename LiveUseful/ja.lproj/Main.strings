@@ -1,12 +1,6 @@
 /* Class = "UIButton"; normalTitle = "  Import QR"; ObjectID = "2v9-Io-nwh"; */
 "2v9-Io-nwh.normalTitle" = "  インポート";
 
-/* Class = "UILabel"; accessibilityLabel = "Purchase pro pack"; ObjectID = "3u8-2j-fWq"; */
-"3u8-2j-fWq.accessibilityLabel" = "Pro 版の購入";
-
-/* Class = "UILabel"; text = "Pro"; ObjectID = "3u8-2j-fWq"; */
-"3u8-2j-fWq.text" = "Pro";
-
 /* Class = "UILabel"; text = "Last Time"; ObjectID = "5Hg-rC-5W8"; */
 "5Hg-rC-5W8.text" = "残り時間";
 
@@ -146,9 +140,6 @@
 
 /* Class = "UILabel"; text = "Scan QR Code"; ObjectID = "TIf-P9-frC"; */
 "TIf-P9-frC.text" = "QR コードをスキャン";
-
-/* Class = "UIButton"; accessibilityLabel = "Purchase pro pack"; ObjectID = "trw-io-BIt"; */
-"trw-io-BIt.accessibilityLabel" = "Pro 版の購入";
 
 /* Class = "UIButton"; accessibilityLabel = "About"; ObjectID = "UHt-On-Vl5"; */
 "UHt-On-Vl5.accessibilityLabel" = "について";

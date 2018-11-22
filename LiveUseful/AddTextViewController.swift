@@ -23,7 +23,6 @@ class AddTextViewController: UIViewController, UITextViewDelegate, UIPickerViewD
     @IBOutlet var textAlignButton: UIButton!
     @IBOutlet var cardStyleButton: UIButton!
     @IBOutlet var backgroundBlur: UIVisualEffectView!
-    @IBOutlet var proIndicator: UIView!
     @IBOutlet var addListButton: UIButton!
     
     var isShowTools = false
@@ -170,13 +169,8 @@ class AddTextViewController: UIViewController, UITextViewDelegate, UIPickerViewD
     
     @IBAction func toList(_ sender: Any) {
         tapticGenerator.impactOccurred()
-        if inAppPurchase.isPro {
-            textView.resignFirstResponder()
-            performSegue(withIdentifier: "toList", sender: self)
-        } else {
-            self.performSegue(withIdentifier: "toProBecauseText", sender: self)
-            return
-        }
+        textView.resignFirstResponder()
+        performSegue(withIdentifier: "toList", sender: self)
     }
     
     override func viewDidLoad() {
@@ -213,16 +207,12 @@ class AddTextViewController: UIViewController, UITextViewDelegate, UIPickerViewD
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        if inAppPurchase.isPro {
-            proIndicator.isHidden = true
-        }
         addListButton.accessibilityLabel = addListButton.title(for: .normal)!
-        addListButton.accessibilityValue = proAccessibilityLabel
         
         cardStyle = tempTextCardStyle
         textAlign = tempTextAlign
         
-        if isShowTools == false { //Won't show animations when back from IAPVC
+        if isShowTools == false {
             previewView.frame.origin = CGPoint(x:0, y:view.frame.height)
             showAndHideTools({})
         }

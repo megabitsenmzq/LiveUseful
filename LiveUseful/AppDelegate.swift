@@ -12,7 +12,6 @@ import UIKit
 //import AppCenterCrashes
 
 let livePhotoBuilder = BuildLivePhoto()
-let inAppPurchase = iap()
 let tapticGenerator = UIImpactFeedbackGenerator(style:.light)
 
 //Output
@@ -22,7 +21,6 @@ var sequenceImages = [Data]()
 
 //Common
 var targetSize: CGSize! //Will be set in StartVC.
-var proAccessibilityLabel: String? = NSLocalizedString("Pro feature", comment: "Pro feature") //Change to "" after pro purchasesed
 let documentsPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0]
 
 //Text

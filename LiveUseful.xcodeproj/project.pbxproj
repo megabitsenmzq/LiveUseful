@@ -16,8 +16,6 @@
 		C026B5641F7FBE6500D462F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C026B5621F7FBE6500D462F3 /* LaunchScreen.storyboard */; };
 		C027DAD91FF101E900585E4C /* AddTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C027DAD81FF101E900585E4C /* AddTextViewController.swift */; };
 		C0504F772014B41B00DCBF9D /* ScanQRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0504F762014B41B00DCBF9D /* ScanQRViewController.swift */; };
-		C054FF342025FED50070E694 /* ProViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C054FF332025FED50070E694 /* ProViewController.swift */; };
-		C054FF3620261EC10070E694 /* IAP.swift in Sources */ = {isa = PBXBuildFile; fileRef = C054FF3520261EC10070E694 /* IAP.swift */; };
 		C05549DA1FDBBE540091DCDE /* CropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05549D91FDBBE540091DCDE /* CropViewController.swift */; };
 		C05549DE1FDBEBA00091DCDE /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05549DD1FDBEBA00091DCDE /* EditViewController.swift */; };
 		C05E2A382028B4A500F84366 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C05E2A3A2028B4A500F84366 /* InfoPlist.strings */; };
@@ -54,8 +52,6 @@
 		C026B5651F7FBE6500D462F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C027DAD81FF101E900585E4C /* AddTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTextViewController.swift; sourceTree = "<group>"; };
 		C0504F762014B41B00DCBF9D /* ScanQRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanQRViewController.swift; sourceTree = "<group>"; };
-		C054FF332025FED50070E694 /* ProViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProViewController.swift; sourceTree = "<group>"; };
-		C054FF3520261EC10070E694 /* IAP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAP.swift; sourceTree = "<group>"; };
 		C05549D91FDBBE540091DCDE /* CropViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropViewController.swift; sourceTree = "<group>"; };
 		C05549DD1FDBEBA00091DCDE /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 		C05E2A34202877F000F84366 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
@@ -135,8 +131,6 @@
 				C075F90D20CBCBB90090C90E /* FileProcess */,
 				C0B112B32035605200F9532B /* SeeItViewController.swift */,
 				C0E7479920234EA500F4B251 /* TutorialsViewController.swift */,
-				C054FF332025FED50070E694 /* ProViewController.swift */,
-				C054FF3520261EC10070E694 /* IAP.swift */,
 				C0E7479B20258F6500F4B251 /* Extensions.swift */,
 				C026B5591F7FBE6500D462F3 /* AppDelegate.swift */,
 				C075F8FE20CBCB4B0090C90E /* LightImageCropperClasses */,
@@ -257,7 +251,6 @@
 				C0BC2ED41FF3BCC900AF5069 /* QuickTimeMov.swift in Sources */,
 				C075F90920CBCB4B0090C90E /* LCropBorderView.swift in Sources */,
 				C075F90620CBCB4B0090C90E /* LImagePicker.swift in Sources */,
-				C054FF342025FED50070E694 /* ProViewController.swift in Sources */,
 				C0504F772014B41B00DCBF9D /* ScanQRViewController.swift in Sources */,
 				C0B5ADBA203B2E9E00450166 /* AddListViewController.swift in Sources */,
 				C075F90820CBCB4B0090C90E /* LImageCropView.swift in Sources */,
@@ -276,7 +269,6 @@
 				C027DAD91FF101E900585E4C /* AddTextViewController.swift in Sources */,
 				C075F90720CBCB4B0090C90E /* LImageCropOverlayView.swift in Sources */,
 				C0E63BA71FF796CF008BC49F /* AddImageViewController.swift in Sources */,
-				C054FF3620261EC10070E694 /* IAP.swift in Sources */,
 				C05549DA1FDBBE540091DCDE /* CropViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

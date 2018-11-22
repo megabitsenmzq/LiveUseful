@@ -7,9 +7,6 @@
 /* AD 4 Title */
 "AD 4 Title" = "添加圖片。發揮你的想象力，你的鎖定畫面潛力無限。";
 
-/* IAP 1 */
-"IAP 1" = "添加多個二維碼或列表到 Live Photo\n\n列表內容可以保存";
-
 /* Add New Item */
 "Add New Item" = "添加項目";
 
@@ -84,9 +81,6 @@
 
 /* Open photos */
 "Open photos" = "打開圖片";
-
-/* Pro feature */
-"Pro feature" = "Pro 版功能";
 
 /* Purple color tag */
 "Purple color tag" = "紫色標籤";

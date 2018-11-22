@@ -7,9 +7,6 @@
 /* AD 4 Title */
 "AD 4 Title" = "あなたの想像力次第、画像を追加し、ロック画面は沢山のことができます。";
 
-/* IAP 1 */
-"IAP 1" = "複数の QR コードまたはリストを追加できます\n\nリストの内容を保存できます";
-
 /* Add New Item */
 "Add New Item" = "項目の追加";
 
@@ -84,9 +81,6 @@
 
 /* Open photos */
 "Open photos" = "写真を開く";
-
-/* Pro feature */
-"Pro feature" = "Pro 機能";
 
 /* Purple color tag */
 "Purple color tag" = "紫タグ";

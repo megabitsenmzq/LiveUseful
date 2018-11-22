@@ -14,13 +14,8 @@ class StartViewController: UIViewController, UIScrollViewDelegate, UIImagePicker
     @IBOutlet var openPhotoView: UIView!
     @IBOutlet var openPhotoButton: UIButton!
     @IBOutlet var useLastPhotoButton: UIButton!
-    @IBOutlet var purchaseProButton: UIButton!
     
     let imagePicker = UIImagePickerController()
-
-    @IBAction func purchasePro(_ sender: Any) {
-        tapticGenerator.impactOccurred()
-    }
     
     @IBAction func selectImage(_ sender: Any) {
         tapticGenerator.impactOccurred()
@@ -51,11 +46,6 @@ class StartViewController: UIViewController, UIScrollViewDelegate, UIImagePicker
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        
-        if inAppPurchase.isPro == true {
-            purchaseProButton.isHidden = true
-            proAccessibilityLabel = nil
-        }
         
         if isTutorialsReaded == true {
             getAuthorization()

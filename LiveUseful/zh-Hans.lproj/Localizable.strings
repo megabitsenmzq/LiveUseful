@@ -7,9 +7,6 @@
 /* AD 4 Title */
 "AD 4 Title" = "添加图片。发挥你的想象力，你的锁屏壁纸潜力无限。";
 
-/* IAP 1 */
-"IAP 1" = "添加多个二维码或列表到 Live Photo\n\n列表内容可以保存";
-
 /* Add New Item */
 "Add New Item" = "添加项目";
 
@@ -84,9 +81,6 @@
 
 /* Open photos */
 "Open photos" = "打开图片";
-
-/* Pro feature */
-"Pro feature" = "Pro 版功能";
 
 /* Purple color tag */
 "Purple color tag" = "紫色标签";

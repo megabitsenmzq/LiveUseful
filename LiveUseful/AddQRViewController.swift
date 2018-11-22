@@ -8,7 +8,7 @@
 
 import UIKit
 import CoreImage
-//import AppCenterAnalytics  
+//import AppCenterAnalytics
 
 class AddQRViewController: UIViewController, UITextViewDelegate, QRScannerDelegate {
 
@@ -26,7 +26,6 @@ class AddQRViewController: UIViewController, UITextViewDelegate, QRScannerDelega
     @IBOutlet var qrCardView: UIVisualEffectView!
     @IBOutlet var qrCardViewSmall: UIVisualEffectView! 
     @IBOutlet var backgroundBlur: UIVisualEffectView!
-    @IBOutlet var proIndicator: UIView!
     @IBOutlet var wordCount: UILabel!
     @IBOutlet var moveQRPanRecognizer: UIPanGestureRecognizer!
     @IBOutlet var addMultipleQRbutton: UIButton!
@@ -157,10 +156,6 @@ class AddQRViewController: UIViewController, UITextViewDelegate, QRScannerDelega
         tapticGenerator.impactOccurred()
         
         func show() {
-            if !inAppPurchase.isPro {
-                self.performSegue(withIdentifier: "toProBecauseQR", sender: self)
-                return
-            }
             textView.resignFirstResponder()
             performSegue(withIdentifier: "toMultiple", sender: self)
         }
@@ -243,12 +238,7 @@ class AddQRViewController: UIViewController, UITextViewDelegate, QRScannerDelega
     override func viewWillAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        if inAppPurchase.isPro {
-            proIndicator.isHidden = true
-        }
-        
         addMultipleQRbutton.accessibilityLabel = addMultipleQRbutton.title(for: .normal)!
-        addMultipleQRbutton.accessibilityValue = proAccessibilityLabel
         
         if isShowTools == false { //Won't show animations when back from ScanQRVC
             previewView.frame.origin = CGPoint(x:0, y:view.frame.height)

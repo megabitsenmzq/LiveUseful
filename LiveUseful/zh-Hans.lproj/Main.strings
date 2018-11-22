@@ -1,20 +1,11 @@
 /* Class = "UIButton"; normalTitle = "  Import QR"; ObjectID = "2v9-Io-nwh"; */
 "2v9-Io-nwh.normalTitle" = "  导入二维码";
 
-/* Class = "UILabel"; accessibilityLabel = "Purchase pro pack"; ObjectID = "3u8-2j-fWq"; */
-"3u8-2j-fWq.accessibilityLabel" = "购买 Pro 版";
-
-/* Class = "UILabel"; text = "Pro"; ObjectID = "3u8-2j-fWq"; */
-"3u8-2j-fWq.text" = "Pro";
-
 /* Class = "UILabel"; text = "Last Time"; ObjectID = "5Hg-rC-5W8"; */
 "5Hg-rC-5W8.text" = "剩余时间";
 
 /* Class = "UILabel"; text = "Full Screen"; ObjectID = "6Dc-7F-6dM"; */
 "6Dc-7F-6dM.text" = "全屏覆盖";
-
-/* Class = "UILabel"; text = "Full Screen"; ObjectID = "S5n-te-1O8"; */
-"S5n-te-1O8.text" = "这是一个完整版功能。";
 
 /* Class = "UISwitch"; accessibilityLabel = "Save List"; ObjectID = "8ly-7k-RPz"; */
 "8ly-7k-RPz.accessibilityLabel" = "保存列表";
@@ -149,9 +140,6 @@
 
 /* Class = "UILabel"; text = "Scan QR Code"; ObjectID = "TIf-P9-frC"; */
 "TIf-P9-frC.text" = "扫描二维码";
-
-/* Class = "UIButton"; accessibilityLabel = "Purchase pro pack"; ObjectID = "trw-io-BIt"; */
-"trw-io-BIt.accessibilityLabel" = "购买 Pro 版";
 
 /* Class = "UIButton"; accessibilityLabel = "About"; ObjectID = "UHt-On-Vl5"; */
 "UHt-On-Vl5.accessibilityLabel" = "关于";

@@ -91,30 +91,6 @@ LiveUseful was designed using Sketch. You can download the .sketch file in the "
 
 ![Screenshot](https://i.imgur.com/hh3GyTT.png)
 
-## Honor
-
-### Productivity #2 in CN App Store
-
-![CN](https://ws3.sinaimg.cn/large/006tNbRwgy1fxhe38ii18j308c04a418.jpg)
-
-### Productivity #9 in US App Store
-
-![US](https://ws3.sinaimg.cn/large/006tNbRwgy1fxhe4ia1s2j308c046gnz.jpg)
-
-### Productivity #4 in JP App Store
-
-![JP](https://ws4.sinaimg.cn/large/006tNbRwgy1fxhe56jrjcj308c049mzj.jpg)
-
-### Featured by Mac Stories Club
-
-![](https://ws1.sinaimg.cn/large/006tNbRwgy1fxhe80otjnj308c08bt93.jpg)
-
-### Be used by all my users
-
-Thanks to all of you.
-
-![Users](https://ws4.sinaimg.cn/large/006tNbRwgy1fxhed5ihi5j308c03t746.jpg)
-
 ## Donate
 
 To support me, you can buy this app on App Store, or donate with WeChat or AliPay:

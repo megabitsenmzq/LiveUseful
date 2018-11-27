@@ -15,7 +15,7 @@ The core of LiveUseful is Live Photo。The App takes a screenshot of the view, t
 
 A Live Photo is made from two parts: a JPEG image and a QuickTime video. You need to generate them separately then combine them as a Live Photo. And you also need to add some metadata to the files in order to join them together.
 
-### Take screenshot
+### Take screenshots
 
 The video will be generated from a screenshot of the snapshotView. This view containing the background image and a card view above it.
 

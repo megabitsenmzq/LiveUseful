@@ -101,4 +101,4 @@ To support me, you can buy this app on App Store, or donate with WeChat or AliPa
 
 ## Licence - MIT
 
-LiveUseful is using MIT as open source license. But with an additional term: You can use part of the code, but do not upload this whole app to App Store by yourself.
+LiveUseful is using MIT as open source license. But with an additional term: You could use part of the code, but do not upload this whole app to App Store by yourself.

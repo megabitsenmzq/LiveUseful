@@ -1,5 +1,5 @@
 /* Accessibility Warning Message */
-"Accessibility Warning Message" = "複数の QR コードを持つ Live Photo は、目の不自由な人が使う出来ない場合あります。";
+"Accessibility Warning Message" = "複数の QR コードを持つ Live Photo は、目の不自由な人が使う出来ない場合ありますので、ご注意下さい。";
 
 /* Accessibility Warning */
 "Accessibility Warning" = "アクセシビリティ警告";
@@ -53,7 +53,7 @@
 "Gray color tag" = "グレータグ";
 
 /* In app purchases are disabled in your device! */
-"In app purchases are disabled in your device!" = "このデバイスはアプリ内購入を無効に設定しました！";
+"In app purchases are disabled in your device!" = "このデバイスでは、アプリ内購入を無効に設定しました！";
 
 /* Input some text here. */
 "Input some text here." = "テキストを入力してください。";
@@ -127,6 +127,6 @@
 /* Yellow color tag */
 "Yellow color tag" = "黄色のタグ";
 
-"Move QR Tip" = "QRコードを垂直方向に移動するには、ダブルタップして押さえたままにします。";
+"Move QR Tip" = "QRコードを垂直方向に移動するには、ダブルタップして押さえたままに指を移動してください。";
 
 "Hide keyboard" = "キーボードを非表示";

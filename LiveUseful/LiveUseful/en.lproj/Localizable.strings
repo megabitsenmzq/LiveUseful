@@ -1,0 +1,19 @@
+/* Accessibility Warning Message */
+"Accessibility Warning Message" = "A Live Photo containing multiple QR-Codes may be difficult to use for the visually impaired.";
+
+/* AD 1 Title */
+"AD 1 Title" = "Welcome to LiveUseful!\nHide text, list, image and QR code in your lock screen wallpaper.";
+
+/* AD 1 Subtitle */
+"AD 1 Subtitle" = "Only show them when you press the screen.";
+
+/* AD 2 Title */
+"AD 2 Title" = "Change card style, font size and text-alignment.";
+
+/* AD 3 Title */
+"AD 3 Title" = "Scan from the camera or an image when adding QR code.";
+
+/* AD 4 Title */
+"AD 4 Title" = "Add an Image. Use your imagination, lock screen can do anything.";
+
+"Move QR Tip" = "Double-tap and hold to move QR code up and down.";

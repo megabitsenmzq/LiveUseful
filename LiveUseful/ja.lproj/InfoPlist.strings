@@ -1,9 +1,0 @@
-/* Bundle name */
-"CFBundleName" = "LiveUseful";
-
-/* Privacy - Camera Usage Description */
-"NSCameraUsageDescription" = "QR コードをスキャンしてインポートします。";
-
-/* Privacy - Photo Library Usage Description */
-"NSPhotoLibraryUsageDescription" = "Live Photo をカメラロールに保存します。";
-

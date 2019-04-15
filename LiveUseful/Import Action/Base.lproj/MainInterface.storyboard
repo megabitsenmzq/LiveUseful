@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jIM-lm-BYB">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Action View Controller-->
+        <scene sceneID="ggM-XZ-vQT">
+            <objects>
+                <viewController id="jIM-lm-BYB" customClass="ActionViewController" customModule="Import_Action" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0bv-hk-XGR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="528"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="252" translatesAutoresizingMaskIntoConstraints="NO" id="F3y-cx-M9j">
+                                <rect key="frame" x="14.5" y="35" width="291" height="258"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="112" id="mnG-ht-S2S"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="mnG-ht-S2S"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zb2-Ws-1tk">
+                                <rect key="frame" x="14.5" y="313" width="291" height="50"/>
+                                <color key="backgroundColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Y5H-yw-20v"/>
+                                </constraints>
+                                <state key="normal" title="Import as link" image="ImportAsLink"/>
+                                <state key="disabled">
+                                    <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="importQR:" destination="jIM-lm-BYB" eventType="touchUpInside" id="YX4-R9-vsK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0SP-zH-cBV">
+                                <rect key="frame" x="14.5" y="373" width="291" height="50"/>
+                                <color key="backgroundColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="a5R-OP-pVY"/>
+                                </constraints>
+                                <state key="normal" title="Import as image" image="ImportAsImage"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="importImage:" destination="jIM-lm-BYB" eventType="touchUpInside" id="7jk-it-1Bk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TXw-bH-OGn">
+                                <rect key="frame" x="14.5" y="433" width="291" height="50"/>
+                                <color key="backgroundColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="OyL-jJ-SyY"/>
+                                </constraints>
+                                <state key="normal" title="Cancel" image="CancelImport"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="done" destination="jIM-lm-BYB" eventType="touchUpInside" id="KJj-AT-Dyz"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fU5-cY-8b6">
+                                <rect key="frame" x="17.5" y="493" width="285" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="1lf-ru-v79"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1cX-uD-aaS">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="528"/>
+                                <subviews>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="UsK-Np-dEg">
+                                        <rect key="frame" x="150" y="254" width="20" height="20"/>
+                                    </activityIndicatorView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="UsK-Np-dEg" firstAttribute="centerX" secondItem="1cX-uD-aaS" secondAttribute="centerX" id="XEz-th-pVL"/>
+                                    <constraint firstItem="UsK-Np-dEg" firstAttribute="centerY" secondItem="1cX-uD-aaS" secondAttribute="centerY" id="bCA-Ef-gmg"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="1cX-uD-aaS" firstAttribute="centerX" secondItem="0bv-hk-XGR" secondAttribute="centerX" id="4rS-Va-jq1"/>
+                            <constraint firstItem="zb2-Ws-1tk" firstAttribute="centerX" secondItem="0bv-hk-XGR" secondAttribute="centerX" id="CGR-6v-Mag"/>
+                            <constraint firstItem="0SP-zH-cBV" firstAttribute="width" secondItem="F3y-cx-M9j" secondAttribute="width" id="Ik1-MH-rYD"/>
+                            <constraint firstItem="fU5-cY-8b6" firstAttribute="centerX" secondItem="0bv-hk-XGR" secondAttribute="centerX" id="Kla-oc-1OW"/>
+                            <constraint firstItem="F3y-cx-M9j" firstAttribute="top" secondItem="ICs-Hy-Vjn" secondAttribute="top" constant="15" id="Q8h-0D-ATp"/>
+                            <constraint firstItem="TXw-bH-OGn" firstAttribute="width" secondItem="0SP-zH-cBV" secondAttribute="width" id="SlE-48-uog"/>
+                            <constraint firstItem="0SP-zH-cBV" firstAttribute="centerX" secondItem="0bv-hk-XGR" secondAttribute="centerX" id="TGG-e4-ky8"/>
+                            <constraint firstItem="0SP-zH-cBV" firstAttribute="top" secondItem="zb2-Ws-1tk" secondAttribute="bottom" constant="10" id="W2V-rE-Ac6"/>
+                            <constraint firstItem="ICs-Hy-Vjn" firstAttribute="bottom" secondItem="fU5-cY-8b6" secondAttribute="bottom" constant="15" id="Wwx-rd-mZG"/>
+                            <constraint firstItem="zb2-Ws-1tk" firstAttribute="top" secondItem="F3y-cx-M9j" secondAttribute="bottom" constant="20" id="Zt7-i5-nG6"/>
+                            <constraint firstItem="zb2-Ws-1tk" firstAttribute="width" secondItem="F3y-cx-M9j" secondAttribute="width" id="a3X-wN-EfC"/>
+                            <constraint firstItem="1cX-uD-aaS" firstAttribute="height" secondItem="0bv-hk-XGR" secondAttribute="height" id="aGh-jM-fmo"/>
+                            <constraint firstItem="1cX-uD-aaS" firstAttribute="centerY" secondItem="0bv-hk-XGR" secondAttribute="centerY" id="mkr-ZK-fag"/>
+                            <constraint firstItem="fU5-cY-8b6" firstAttribute="width" secondItem="F3y-cx-M9j" secondAttribute="width" multiplier="0.98" id="nzu-f5-8Z4"/>
+                            <constraint firstItem="TXw-bH-OGn" firstAttribute="centerX" secondItem="0bv-hk-XGR" secondAttribute="centerX" id="u49-VN-nSe"/>
+                            <constraint firstItem="F3y-cx-M9j" firstAttribute="centerX" secondItem="0bv-hk-XGR" secondAttribute="centerX" id="uop-9G-pBK"/>
+                            <constraint firstItem="F3y-cx-M9j" firstAttribute="width" secondItem="0bv-hk-XGR" secondAttribute="width" multiplier="0.91" id="vOp-XP-2ag"/>
+                            <constraint firstItem="fU5-cY-8b6" firstAttribute="top" secondItem="TXw-bH-OGn" secondAttribute="bottom" constant="10" id="wCl-By-RwE"/>
+                            <constraint firstItem="TXw-bH-OGn" firstAttribute="top" secondItem="0SP-zH-cBV" secondAttribute="bottom" constant="10" id="x3i-aS-02o"/>
+                            <constraint firstItem="1cX-uD-aaS" firstAttribute="width" secondItem="0bv-hk-XGR" secondAttribute="width" id="yxP-9W-bHh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ICs-Hy-Vjn"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="528"/>
+                    <connections>
+                        <outlet property="imageView" destination="F3y-cx-M9j" id="0fY-8b-RAn"/>
+                        <outlet property="importImageButton" destination="0SP-zH-cBV" id="rdy-sG-kIy"/>
+                        <outlet property="importQRButton" destination="zb2-Ws-1tk" id="kdp-pq-euN"/>
+                        <outlet property="maskView" destination="1cX-uD-aaS" id="k2i-XF-KU3"/>
+                        <outlet property="qrContentView" destination="fU5-cY-8b6" id="WCb-a9-M1e"/>
+                        <outlet property="view" destination="0bv-hk-XGR" id="bPh-xp-t9H"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="28G-NX-skb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="714" y="139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="CancelImport" width="50" height="50"/>
+        <image name="ImportAsImage" width="50" height="50"/>
+        <image name="ImportAsLink" width="50" height="50"/>
+    </resources>
+</document>

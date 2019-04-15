@@ -1,0 +1,8 @@
+/* Class = "UIButton"; normalTitle = "Import as image"; ObjectID = "0SP-zH-cBV"; */
+"0SP-zH-cBV.normalTitle" = "作為圖片匯入";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "TXw-bH-OGn"; */
+"TXw-bH-OGn.normalTitle" = "取消";
+
+/* Class = "UIButton"; normalTitle = "Import as link"; ObjectID = "zb2-Ws-1tk"; */
+"zb2-Ws-1tk.normalTitle" = "辨識二維碼匯入";

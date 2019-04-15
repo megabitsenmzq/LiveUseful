@@ -1,9 +1,0 @@
-/* Bundle name */
-"CFBundleName" = "LiveUseful";
-
-/* Privacy - Camera Usage Description */
-"NSCameraUsageDescription" = "掃描導入二維碼。";
-
-/* Privacy - Photo Library Usage Description */
-"NSPhotoLibraryUsageDescription" = "保存 Live Photo 到照片庫。";
-

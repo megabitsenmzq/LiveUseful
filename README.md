@@ -101,6 +101,10 @@ To support me, you can buy this app on App Store, or donate with WeChat or AliPa
 
 [![](https://qrtag.net/api/qr_transparent_4.svg?url=HTTPS://QR.ALIPAY.COM/FKX03104PXEOHVFMZKFFAA)](HTTPS://QR.ALIPAY.COM/FKX03104PXEOHVFMZKFFAA)
 
+## Support
+
+For app support, you can email to app.megabitsenmzq@gmail.com .
+
 ## Licence - MIT
 
 LiveUseful is using MIT as open source license. But with an additional term: You could use part of the code, but do not upload this whole app to App Store by yourself.

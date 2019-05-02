@@ -1,7 +1,7 @@
 # LiveUseful - Make your lock screen useful!
 ![Use for iOS](https://img.shields.io/badge/platform-iOS-green.svg) [![Made with Swift](https://img.shields.io/badge/language-swift4.0-orange.svg)](https://github.com/apple/swift) [![Use MIT license](https://img.shields.io/badge/license-MIT¿-blue.svg)](https://opensource.org/licenses/MIT)
 
-![](Preview.jpg)
+![](Preview.jpeg)
 
 ## About
 
